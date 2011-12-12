@@ -5,11 +5,11 @@ require "tu/version"
 Gem::Specification.new do |s|
   s.name        = "tu"
   s.version     = Tu::VERSION
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
+  s.authors     = ["Anton Dieterle"]
+  s.email       = ["antondie@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Tiny Utilites}
+  s.description = %q{Small quick utilites to simplify some tasks}
 
   s.rubyforge_project = "tu"
 
@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
+  s.add_runtime_dependency "thor"
 end
