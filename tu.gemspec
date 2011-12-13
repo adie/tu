@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Tu::VERSION
   s.authors     = ["Anton Dieterle"]
   s.email       = ["antondie@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/adie/tu"
   s.summary     = %q{Tiny Utilites}
   s.description = %q{Small quick utilites to simplify some tasks}
 
